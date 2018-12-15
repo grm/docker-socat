@@ -1,4 +1,4 @@
-FROM alpine:socat
+FROM alpine/socat
 
 RUN mkdir /socat
 WORKDIR /socat
