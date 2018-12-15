@@ -1,4 +1,5 @@
-FROM alpine/socat:latest
+FROM alpine
+RUN apk --no-cache add socat
 
 RUN mkdir /socat
 WORKDIR /socat
